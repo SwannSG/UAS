@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Main Container</title>
+
+    <!-- Bootstrap -->
+    <link href="/home/swannsg/development/UAS/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/home/swannsg/development/UAS/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/home/swannsg/development/UAS/bower_components/angular/angular-csp.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="/home/swannsg/development/UAS/bower_components/html5shiv/dist/html5shiv.min.js"></script>
+    <script src="/home/swannsg/development/UAS/bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <div class="row" style="border: 1px solid black; height:650px;">
+        <div class="col-lg-3">
+            Left pane
+            <p><a target="view01" href="file:///home/swannsg/development/UAS/test/myForm.html">Activate new iframe</a></p>
+        </div>
+        <div class="col-lg-9">
+            <div class="row" style="border: 1px solid black; height:150px;">
+                Top pane
+            </div>
+            <div class="row" style="border: 1px solid black; height:500px;">
+                <iframe name="view01"  class="col-lg-offset-1 col-lg-10" seamless scrolling="no" style="height: 480px; width: 800px; overflow-x: hidden;  overflow-y: hidden;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="/home/swannsg/development/UAS/bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/home/swannsg/development/UAS/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/home/swannsg/development/UAS/bower_components/angular/angular.min.js"></script>
+</body>
+</html>
